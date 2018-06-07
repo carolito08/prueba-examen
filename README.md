@@ -33,6 +33,12 @@ docker build . -t nombre-nueva-imagen
 		- sudo service haproxy start
 		
 	*  #### Tecleamos la siguiente liga:
+		- http://localhost:9090/api/calcu?tipo=suma&num1=1225&num2=44
+		- http://localhost:9090/api/calcu?tipo=resta&num1=1225&num2=44
+		- http://localhost:9090/api/calcu?tipo=multiplica&num1=1225&num2=44
 		- http://localhost:9090/api/calcu?tipo=divide&num1=1225&num2=44
+		
+		según requieras el tipo de operaciòn 
+		
 		
 			
